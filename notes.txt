@@ -1,0 +1,5 @@
+conda create -n myrtc
+conda activate myrtc
+conda install jupyterlab
+pip install -r requirements.txt 
+jupyter lab --collaborative
